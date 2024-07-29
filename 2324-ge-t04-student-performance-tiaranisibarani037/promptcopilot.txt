@@ -1,0 +1,12 @@
+bagaimana membandingkan sesuatu yang telah kita simpan di dalam array?
+The method compareTo(String) in the type String is not applicable for the arguments (double)
+bagaimana melakukan pengrutan dalam array 
+bagaimana melakukan pengrutan dalam array dan menyimpannya dalam variabel n, kemudian jika dipanggil n nya dalam angka(int) maka akan mengeluarkan sejumlah nilai yang telah disimpan
+cara mengurutkan array dalam integer dan menyimpannya dalam n
+bagaimana melakukan pengurutan berdasarkan GPA tertinggi?
+fix The method compare(double, double) in the type Double is not applicable for the arguments (String, String)
+setelah diterapkannya konsep sorting, apakah dia sudah disimpan ke dalam variabel n nya? dan bagaimana menunjukkan bahwa dia sudah disimpan?
+bukan dicetak ke konsol melainkan cetak mahasiswa yang berada di urutan 2 teratas, dimana 2 nya itu adalah n nya tadi
+fix The method compare(double, double) in the type Double is not applicable for the arguments (String, String)
+fix Syntax error on token "close", Identifier expected after this token
+sorting dalam array list dan nantinya akan mencetak mahasiswa yang memiliki GPA tertinggi dan di print berdasarkan n yakni berapa mahasiswa yang memiliki GPA tertinggi

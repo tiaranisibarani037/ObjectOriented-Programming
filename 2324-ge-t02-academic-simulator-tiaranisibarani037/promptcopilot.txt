@@ -1,0 +1,4 @@
+bagaimana membuat agar output yang keluar berurutan dan sejenis, meskipun inputnya tidak berurutan?
+buatlah variabel untuk menyimpan hasil yang telah diprint dari student
+bagaimana cara mengelompokkan inputan yang sejenis agar nanti saat outputnya keluar akan berurut dan sejenis
+ubahlah agar outputnya tidak langsung keluar, tetapi tunggu input selesai dimasukkan

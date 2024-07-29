@@ -1,0 +1,2 @@
+//put your prompt here
+definisikanlah kelas Course dengan objek code, name, credit, passing grade
