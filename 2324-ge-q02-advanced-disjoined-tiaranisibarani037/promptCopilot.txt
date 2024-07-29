@@ -1,0 +1,15 @@
+bagaimana cara menentukan perinkat student?
+apa penjelasan error ini berikut ini? 
+Exception in thread "main" java.lang.NullPointerException: 
+Cannot invoke "java.lang.Double.doubleValue()" because the return value of "java.util.Map.get(Object)"
+ is null at academic.model.AcademicController.findBestStudent(AcademicController.java:186) at 
+ academic.driver.Driver1.main(Driver1.java:53) make: *** [Makefile:5: test_01] Error 1
+
+ apakah saya perlu menggunakan kelas baru?
+ bagaimana dengan metode toString digunakan lagi dalam MVC?
+ bagaimana penggunaan ataupun maksud dari addBestStudent?
+ apakah si bestStudent itu parameternya String atau ArrayList, karena agak membingungkan?
+ bagaimana memecah String sehingga bisa diambil genap saja 
+ bagaimana agar sekiranya bisa memisahkan dua nilai dari arraylist agar bisa di cek dan dibandingkan
+ bagaimana membentuk agar tampil seperti format yang kita mau 
+ saya sering mengahadapi error NullPointerException apakah memang harus menerapkan ExceptionHandling disitu?

@@ -1,0 +1,2 @@
+dalam java, bagaimana membuat suatu objek terikat dengan objek lain? sehingga ketika salah satu yang dipanggil, keduanya tetap dicetak?
+dalam java, bagaimana penggunaan atau cara menghubungkan satu objek dengan objek lain?

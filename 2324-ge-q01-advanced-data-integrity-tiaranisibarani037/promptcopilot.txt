@@ -1,0 +1,14 @@
+menggunakan "explain this"
+
+jelaskan error ini :
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "this.lecturerList" is null
+        at academic.model.Course.getLecturerList(Course.java:43)
+        at academic.driver.Driver2.main(Driver2.java:121)
+make: *** [Makefile:8: test_02] Error 1
+
+fix using copilot
+bagaimana cara mengatasi null yang terjadi dalam getLecturerList
+
+bagaimana mengubah koma menjadi semicolon ketikan inputan initial dimasukkan?
+bagaimana menghubungkan initial dan email menjadi satu kesatuan?
+bagaimana mengaitkan suatu objek dengan objek lain?

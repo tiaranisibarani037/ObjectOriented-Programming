@@ -1,0 +1,18 @@
+fix totalCredit cannot be resolved to a variable 
+bagaimana membuat agar menerima inputan dulu semua, barulah outputnya keluar?
+bagaimana agar inputannya masuk dulu semua baru outputnya keluar sekaligus
+bagaimana mengecek agar tidak ada duplikasi data dalam enrollment
+bagaimana membuat agar gradenya mahasiswa yang sudah melakukan remedial langsung digantikan dengan nilai yang dia hasilkan ketika remedial
+melengkapi constructor baru untuk remedial enrollment 
+bagaimana mengecek apakah remedial dilakukan sekali dan distore sekali saja
+Bagaimana cara menghapus data siswa dari daftar siswa?
+bagaimana cara menghapus enrollment hasil remedial sehingga tidak dicetak dua kali. cukup yang sudah mengandung perubahan saja
+menjelaskan code program bagian enrollment grade
+apa kegunaan HasMap dalam student detail
+bagaimana menghapus enrollment remedial yang dicetak 2 kali?
+bagaimana dengan alternative lain untuk enrollment grade?
+bagaimana menghilangkan output yang tidak diperlukan
+bagaimana penggunaan remove
+/fix The operator += is undefined for the argument type(s) double, String
+bagaimana melakukan perhitungan ipk dengan memanfaatkan mahasiswa yang remedial
+/fix Cannot cast from String to int
