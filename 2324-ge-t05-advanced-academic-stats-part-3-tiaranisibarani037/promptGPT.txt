@@ -1,0 +1,1 @@
+bagaimana menggunakan konsep inheritance di Java?

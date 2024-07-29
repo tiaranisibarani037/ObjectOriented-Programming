@@ -1,0 +1,37 @@
+bagaimana menerapkan konsep inheritance dalam program ini?
+berarti membuat kelas baru dengan nama Entity?
+bagaimana contoh penerapan inheritance tersebut?
+enrollments.stream()
+                            .filter(enrollment -> enrollment.getCourse_id().equals(course_id) &&
+                                    enrollment.getStudent_id().equals(student_id) &&
+                                    enrollment.getYear().equals(year) &&
+                                    enrollment.getSemester().equals(semester))
+                            .findFirst()
+                            .ifPresent(enrollment -> enrollment.setGrade(grade));
+
+apa kegunaan findfirst pada program ini, dan apakah bisa digantikan dengan findLast untuk menemukan grade yang terakhir kali dimasukkan
+Bagaimana cara mengakses properti id dari objek Course setelah menerapkan konsep pewarisan?
+bagaimana mengakses course dengan extend dari entity dalam konsep inheritance?
+bagaimana akses getter dengan konsep inheritance dari Entity?
+bagaimana caranya untuk menetukan bahwa yang di simpan adalah nilai terakhir untuk nim yang sama dan course yang sama
+Bagaimana cara mengubah nilai grade pada Enrollment terakhir untuk suatu student_id dan course_id yang sama?
+apakah perubahan itu dilakukan pada student details?
+else if (command.equals("student-details"))
+                    String student_id = tokens[1];
+                    double[] totalCredit = {0}; // Array yang hanya memiliki satu elemen untuk menyimpan nilai totalCredit
+                    double totalGradePoints = 0;
+
+                    for (Enrollment enrollment : enrollments) {
+                        if (enrollment.getStudent_id().equals(student_id)) {
+                            for (Course course : courses) {
+                                if (course.getId().equals(enrollment.getCourse_id())) {
+                                    if (!enrollment.getGrade().equals("None")) {
+                                        totalCredit[0] += Double.parseDouble(course.getCredit());
+                                        totalGradePoints += calculateGradePoints(enrollment.getGrade()) * Double.parseDouble(course.getCredit());
+                                    }
+                                    break;
+                                }
+                            }
+                        }
+                    }
+bagaimana caranya menerapkan konsep jika student mengulang sebuah course tetapi yang adiambil adalah nilai terakhir atau hasil remedialnya, bukan yang sudah pernah didapatnya sebelumnya

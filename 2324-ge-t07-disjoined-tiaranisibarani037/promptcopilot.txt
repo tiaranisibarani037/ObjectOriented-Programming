@@ -1,0 +1,33 @@
+bagaimana membuat agar sejarah dalam mata kuliah yang diambil tercatat beserta dengan mahasiswa yang mengambil mata kuliah tersebut setiap tahunnya, diperhatikan juga tahun dari kursus atau mata kuliah yang diambil.
+Bagaimana cara mengakses sejarah mata kuliah yang diambil oleh mahasiswa tertentu?
+else if(command.equals("course-history")){ String course_id = tokens[1];
+
+bagaimana membuat agar sejarah dalam mata kuliah yang diambil tercatat beserta dengan mahasiswa yang mengambil mata kuliah tersebut setiap tahunnya, diperhatikan juga tahun dari kursus atau mata kuliah yang diambil.
+bagaimana agar ketika course opennya diakses, email yang ditampilkan adalah email yang sesuai dengan initialnya lecturernya, bukan mencetak ketiganya
+(ternyata saya salah dibagian parameternya)
+bagaimana mengurutkan course opennya agar yang muncul pertama ketika dicetak adalah yang semester odd?
+apakah pengurutan dalam string mempunyai alternatif lain selain menggunakan sort?
+/fix Syntax error on token "else", delete this token
+/fix Type mismatch: cannot convert from List<CourseOpening> to ArrayList<CourseOpening>
+/fix Duplicate local variable courseOpenings
+apakah ketika membuat course-history tampil tiap course-open ditampilkan yang disesuaikan dengan tahunnya, menggunakan nested constructs?
+How can I filter the courseHistories to only include records from a specific year?
+bagaimana dengan peletakan yang tepat untuk meletakkan historynya agar disesuaikan dengan tahun kursus yang diambil
+ //bagaimana menampilkan course history ini dengan memanfaatkan course yang sudah ada?
+ //bagaimana menampilkan course history ini dengan memanfaatkan cenrollment yang sudah ada?
+menggunakan stream dan filter untuk mencari course_id yang sama dengan course_id yang diinputkan
+How can I sort the enrollments in descending order based on the year?
+/fix Lambda expression's parameter courseOpening cannot redeclare another local variable defined in an enclosing scope. 
+bagaimana cara pengurutan sehingga dalam setiap course open yang ditampilkan adalah semester odd
+bagaimana cara pengurutan dengan memanfaatkan stream dan filter?
+bagaimana pengurutan hanya pada bagian semester?
+
+bagaimana error ini :
+src\academic\driver\Driver1.java:103: error: constructor CourseOpening in class CourseOpening cannot be applied to given types;
+                    CourseOpening courseOpening = new CourseOpening(courseId, courseYear, semester, courseLecturers);
+                                                  ^
+  required: String,String,String,String,String,String,List<Lecturer>
+  found:    String,String,String,List<Lecturer>
+  reason: actual and formal argument lists differ in length
+1 error
+make: *** [Makefile:2: compile] Error 1
