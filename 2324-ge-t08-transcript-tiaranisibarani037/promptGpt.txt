@@ -1,0 +1,38 @@
+apakah code ini sudah termasuk nested construct?
+apakah salah satu nested construct ini adalah Inner Class, Static Nested Class, Local Class, atau Anonymous Class?
+
+public static void displayStudentTranscript(String student_id){
+        Collections.sort(enrollments, new Comparator<Enrollment>() {
+            @Override
+            public int compare(Enrollment e1, Enrollment e2) {
+                String y1 = e1.getYear();
+                String y2 = e2.getYear();
+                if (y1.equals(y2)) return 0;
+                if (y1.compareTo(y2) < 0) return -1;
+                return 1;
+            }
+        });
+
+        //tampilkan juga detail mahasiswa dengan method addStudentDetail
+        addStudentDetail(student_id);
+    
+        for (Student student : students) {
+            if (student.getId().equals(student_id)) {
+                for (Course course : courses) {
+                    Enrollment lastEnrollment = null;
+                    for (Enrollment enrollment : enrollments) {
+                        if (enrollment.getStudent_id().equals(student_id) && enrollment.getCourse_id().equals(course.getId())) {
+                            lastEnrollment = enrollment;
+                        }
+                    }
+                    if (lastEnrollment != null) {
+                        System.out.println(lastEnrollment.getCourse_id() + "|"
+                            + lastEnrollment.getStudent_id() + "|"
+                            + lastEnrollment.getYear() + "|" 
+                            + lastEnrollment.getSemester() + "|" 
+                            + lastEnrollment.getGrade());
+                    }
+                }
+            }
+        }
+    }

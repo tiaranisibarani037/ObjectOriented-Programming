@@ -1,0 +1,12 @@
+academic\model\CourseOpening.class
+academic\model\EntityInterface.class
+academic\model\AbstractDatabase.class
+academic\model\Entity.class
+academic\driver\Driver1.class
+academic\model\AcademicView.class
+academic\App.class
+academic\model\Student.class
+academic\model\Course.class
+academic\model\AcademicController.class
+academic\model\Lecturer.class
+academic\model\Enrollment.class

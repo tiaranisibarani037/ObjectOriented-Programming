@@ -1,0 +1,7 @@
+bagaimana mengambil nilai dari enrollment?
+bagaimana penggunaan ataupun pengimplementasian local class
+bagaimana penggunaan ataupun pengimplementasian inner class
+bagaimana menerapkan jika yang ingin ditampilkan sesuai dengan id mahasiswanya?
+misalnya saya ingin memasukkan sebuah id student tertentu maka transcript yang ditampilkan itu hanya id yang ada pada yang saya inginkan
+bagaimana saya bisa menyelesaikan bug sehingga output saya benar? dimana bugnya itu menyebabkan kelebihan output yang diminta
+bagaimana cara/konsep dalam pengambilan transkrip nilai seorang mahasiswanya

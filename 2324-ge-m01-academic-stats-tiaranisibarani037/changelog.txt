@@ -1,0 +1,12 @@
+Kendala yang dialami :
+1. Test 01_01
+Keliru dibagian enrollment grade yang tidak muncul karena salah penggunaan method, yang kami gunakan pertama kali 
+adalah method dari kelas enrollment, bukan enrollment grade
+
+2. Test 01_02
+Kami sempat bingung mengapa tidak ada enrollment yang ditambahkan padahal sudah ada enrollment addnya, ternyata karena harus di cek dulu
+semua atribut yang sama. jangan sampai ada atribut yang duplikasi
+
+3. Test 02_01
+Kami mengalami kesulitan dalam mengimplementasikan logika yang telah kami dapatkan ke dalam sebuah code
+kami sudah tau dari mana output tersebut berasal namun kami tidak bisa menggunakan code ataupun memodifikasi codenya hingga berhasil dan hanya setengah jalan saja

@@ -1,0 +1,6 @@
+apakah untuk menggunakan driver sqlite database di visual studio code perlu dihubungkan terlebih dahulu?
+bagaiamana menghubungkan java dengan sqlite?
+bagaimana membuat connector antara java dengan mysql?
+apakah ada hubungan mysql dengan java dalam pembuatan databasenya?
+adakah perbedaan antara penggunaan mysql dengan sqlite?
+mengapa harus menggunakan sqlite?
